@@ -41,8 +41,6 @@ $ vim deeplab_ros.py
 ```python
     MODEL_NAME = 'deeplabv3_mnv2_pascal_train_aug_2018_01_29.tar.gz'
     # MODEL_NAME = 'deeplabv3_mnv2_cityscapes_train_2018_02_05.tar.gz'
-    download_path = os.path.join(sys.path[0], MODEL_NAME)
-    MODEL = DeepLabModel(download_path)
 ```
 
 ### Change param
