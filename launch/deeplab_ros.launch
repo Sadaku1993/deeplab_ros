@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="deeplab_ros" type="deeplab_ros.py" name="segmentation" >
+        <param name="per" type="double" value="0.3" />
+        <param name="dev" type="string" value="1" />
+        <remap from="/image"                  to="/usb_cam/image_raw" />
+        <remap from="/segmentation/image" to="/segmentation/image"/>
+    </node>
+</launch>
