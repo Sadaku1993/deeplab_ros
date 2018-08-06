@@ -53,3 +53,8 @@ $ vim deeplab_ros.launch
 image : Subscribe Topic(sensor_msgs/Image)
 deeplab/image : Publish Topic(sensor_msgs/Image)
 ```
+
+### Launch rosnode
+```
+$ roslaunch deeplab_ros deeplab_ros.launch
+```
