@@ -12,7 +12,7 @@ In this repository, I compiled the source code using ROS and Pyhon2.7
 - [DeepLab](https://github.com/tensorflow/models/tree/master/research/deeplab)v3
 
 ## How to Install
-### Tensorflow object detection API
+### DeepLab: Deep Labelling for Semantic Image Segmentation
 - [DeepLab](https://github.com/tensorflow/models/blob/master/research/deeplab/g3doc/installation.md)
 ### ROS Kinetic
 - [ROS Kinetic installation](http://wiki.ros.org/ja/kinetic/Installation/Ubuntu)
