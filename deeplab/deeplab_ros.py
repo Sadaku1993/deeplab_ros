@@ -144,7 +144,7 @@ class Segmentation(object):
             resized_im, seg_map = MODEL.run(self.pil_Image)
             seg_image = vis_segmentation(resized_im, seg_map)
             
-            pub_image = CvBridge().cv2_to_imgmsg(seg_map, "bgr8")
+            pub_image = CvBridge().cv2_to_imgmsg(seg_image, "bgr8")
             self.image_pub.publish(pub_image)
 
         except CvBridgeError as e:
