@@ -8,7 +8,7 @@ project(deeplab_ros)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  amsl_recog_msgs
+  # amsl_recog_msgs
   nav_msgs
   roscpp
   rospy
